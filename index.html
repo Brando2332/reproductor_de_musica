@@ -44,7 +44,10 @@
 
 			<section class="main-content">
 				<div class="container-name-concentracion">
-					<div class="container-card-concentracion">
+					<div class="container-card-concentracion" id="tracklist">
+
+						
+
 						<div class="card-concentracion">
 							<div class="card">
 								<div class="card-img">
@@ -57,81 +60,7 @@
 								<p>Relax and indulge with beautiful piano pieces</p>
 							</div>
 						</div>
-						<div class="card-concentracion">
-							<div class="card">
-								<div class="card-img">
-									<img
-										src="deep focus.jpg"
-										alt="Deep Focus"
-									/>
-								</div>
-								<h2>Deep Focus</h2>
-								<p>
-									Keep calm and focus with ambient and post-rock
-									music.
-								</p>
-							</div>
-						</div>
-						<div class="card-concentracion">
-							<div class="card">
-								<div class="card-img">
-									<img
-										src="instrumental study.jpg"
-										alt="Instrumental study"
-									/>
-								</div>
-								<h2>Instrumental Study</h2>
-								<p>Focus with soft study music in the background.</p>
-							</div>
-						</div>
-						<div class="card-concentracion">
-							<div class="card">
-								<div class="card-img">
-									<img
-										src="coding mode.jpg"
-										alt="Jazz Vibes"
-									/>
-								</div>
-								<h2>Jazz Vibes</h2>
-								<p>The original chill instrumental beats playlist.</p>
-							</div>
-						</div>
-						<div class="card-concentracion">
-							<div class="card">
-								<div class="card-img">
-									<img
-										src="focus flow.jpg"
-										alt="Focus Flow"
-									/>
-								</div>
-								<h2>Focus Flow</h2>
-								<p>Uptempo instrumental hip hop beats.</p>
-							</div>
-						</div>
-						<div class="card-concentracion">
-							<div class="card">
-								<div class="card-img">
-									<img
-										src="workday lounge.jpg"
-										alt="Workday Lounge"
-									/>
-								</div>
-								<h2>Workday Lounge</h2>
-								<p>Lounge and chill out music for your workday.</p>
-							</div>
-						</div>
-						<div class="card-concentracion">
-							<div class="card">
-								<div class="card-img">
-									<img
-										src="beats to think.jpg"
-										alt="Beats to think to"
-									/>
-								</div>
-								<h2>Beats to think to</h2>
-								<p>Focus with deep techno and tech house.</p>
-							</div>
-						</div>
+
 					</div>
 				</div>
         </section>
@@ -139,19 +68,34 @@
 <script src="script.js"></script>
 
 
-
     </div>
+
 	<footer>
+		<div class="texto">
+			<img class="img-icon"
+			src="peacefulpiano.jpg" 
+			alt="" 
+			id="current-song-img">
+			<div class="text__container">
+				<h4 id="current-song-title">Titulo</h4>
+				<p id="current-song-author">Autor</p>
+			</div>
+		</div>
+
+		
+
 		<div class="controles">
-			<img src="prev_footer.svg" alt="">
+			<!-- <img src="prev_footer.svg" alt="">
 			<img src="play_footer.svg" alt="">
-			<img src="next_footer.svg" alt="">
+			<img src="next_footer.svg" alt=""> -->
+			<audio src="" autoplay controls  id="current-song-audio"></audio>
 		</div>
 		<div class="progreso">
-			<span>0:00</span>
+			<!-- <span>0:00</span>
 			<div class="barra_progreso"></div>
-			<span>5:00</span>
-		</div>
+			<span>5:00</span> -->
+			
+		</div> 
 	</footer>
 </body>
 

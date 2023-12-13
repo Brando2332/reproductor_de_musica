@@ -60,6 +60,9 @@ body{
     overflow-y: scroll;
     padding-bottom: 5rem;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 .container section::-webkit-scrollbar{
     -webkit-appearance: none;
 }
@@ -229,7 +232,7 @@ body{
 footer{
     background: var(--fondo);
     display: flex;
-    flex-direction: column;
+    
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -237,6 +240,10 @@ footer{
     border-top: 1px solid #282828;
     color: #ffffff;
     z-index: 1000;
+}
+footer .texto  {
+    display: flex;
+    align-items: center;
 }
 footer .controles{
     display: flex;
@@ -260,3 +267,9 @@ footer .progreso .barra_progreso{
     margin: 0 1em;
 }
 
+footer .img-icon{
+    width: 40pt;
+    height: 40pt;
+    border-radius: 30px;
+
+}
