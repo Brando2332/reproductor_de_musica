@@ -76,9 +76,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: sticky;
     padding: var(--padding);
-    width: 80%;
+    width: 100%;
     background-color: #505053;
     z-index: 2;
 }
@@ -147,6 +147,7 @@ body{
 	flex-direction: column;
 	gap: 3rem;
     width: 100%;
+    padding-bottom: 150px;
 }
 
 .container section .title-playlist {
